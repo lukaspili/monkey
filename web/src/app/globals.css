@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply has-[.plz-h-full]:h-full;
+  }
+
+  .plz-h-full {
+    @apply h-full;
+  }
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+@layer components {
+  .app-button {
+    @apply dark:[--btn-icon:theme(colors.zinc.100)] !important;
+  }
+}
+
+.filepond--root {
+  font-family: "Inter", sans-serif !important;
+}
+
+.filepond--label-xs {
+  font-size: 14px !important;
+  line-height: 1 !important;
+}

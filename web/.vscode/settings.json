@@ -1,0 +1,53 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "[edgeql]": {
+    "editor.tabSize": 4
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.yarn": true,
+    "**/.next": true,
+    "**/pnpm-lock.yaml": true,
+    "**/__tests__": true,
+    "**/.turbo": true
+  },
+  "search.exclude": {
+    "dbschema": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "javascriptreact": "html"
+  },
+  // Yarn 3
+  // "search.exclude": {
+  //   "**/.yarn": true,
+  //   "**/.pnp.*": true
+  // },
+  // "eslint.nodePath": ".yarn/sdks",
+  // "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  // "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  // "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  // "auto-rename-tag.activationOnLanguage": ["html", "xml", "javascriptreact", "typescriptreact"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
